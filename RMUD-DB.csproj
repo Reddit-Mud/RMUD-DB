@@ -52,6 +52,9 @@
     <Compile Include="static\blecki-demo\bluff.cs" />
     <Compile Include="static\blecki-demo\cabin.cs" />
     <Compile Include="static\blecki-demo\deck.cs" />
+    <Compile Include="static\blecki-demo\pit.cs" />
+    <Compile Include="static\blecki-demo\darkness.cs" />
+    <Compile Include="static\blecki-demo\shaft.cs" />
     <Compile Include="static\blecki-demo\lighthouse_balcony.cs" />
     <Compile Include="static\blecki-demo\lighthouse_door.cs" />
     <Compile Include="static\blecki-demo\lighthouse_key.cs" />
