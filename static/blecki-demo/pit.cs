@@ -7,6 +7,18 @@
 
         OpenLink(RMUD.Direction.UP, "blecki-demo/shaft");
         OpenLink(RMUD.Direction.WEST, "blecki-demo/darkness", new grate());
+
+        RMUD.Thing.Move(new skull(), this);
+    }
+}
+
+public class skull : RMUD.Thing
+{
+    public skull()
+    {
+        Short = "human skull";
+        Nouns.Add("HUMAN", "SKULL");
+        Long = "This is a rather ordinary human skull. There is nothing remarkable about it, except for the part where it was once a living person with hopes and dreams and an obscure talent they never shared with anyone.";
     }
 }
 

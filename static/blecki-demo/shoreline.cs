@@ -17,3 +17,13 @@
 		OpenLink(RMUD.Direction.SOUTH, "blecki-demo/shack");
 	}
 }
+
+public class beachball : RMUD.Thing
+{
+    public beachball()
+    {
+        Short = "dirty beachball";
+        Nouns.Add("DIRTY", "BEACHBALL", "BALL");
+        Long = "This beachball is a vibrant orange and white.. well, okay. It's a vibrant brown and slightly paler brown. But it was clearly once very nice. And very more inflated.";
+    }
+}
