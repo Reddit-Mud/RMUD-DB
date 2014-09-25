@@ -2,8 +2,8 @@
 {
 	public override void Initialize()
 	{
-		Short = "lighthouse key";
+		Short = "iron key";
 		Long = "This is a small, old fashioned spade-and-barrel key.";
-		Nouns.Add("LIGHTHOUSE", "KEY", "LIGHT", "HOUSE");
+		Nouns.Add("IRON", "KEY");
 	}
 }

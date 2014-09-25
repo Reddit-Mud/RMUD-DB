@@ -3,7 +3,7 @@
 	public override void Initialize()
 	{
 		Short = "round steel door";
-		Long = "There is a round steel door in the side of the lighthouse.";
+		Long = "There is a round steel door in the side of the lighthouse. There's a keyhole below the knob.";
 		Nouns.Add("STEEL", "DOOR", "ROUND");
         IsMatchingKey = k => k.Is("blecki-demo/lighthouse_key");
 
