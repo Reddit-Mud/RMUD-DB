@@ -50,6 +50,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="static\port-ivy\bed-and-breakfast\deck.cs" />
     <Compile Include="static\port-ivy\bed-and-breakfast\bay_room.cs" />
+    <Compile Include="static\port-ivy\bed-and-breakfast\henrietta_wok_room.cs" />
+    <Compile Include="static\port-ivy\bed-and-breakfast\landing.cs" />
     <Compile Include="static\port-ivy\bed-and-breakfast\patio.cs" />
     <Compile Include="static\port-ivy\bed-and-breakfast\hallway.cs" />
     <Compile Include="static\port-ivy\bed-and-breakfast\front_door.cs" />
