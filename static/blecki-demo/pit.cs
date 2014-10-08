@@ -31,14 +31,14 @@ public class grate : RMUD.BasicDoor, RMUD.IOpenableRules
         Nouns.Add("GRATE");
     }
 
-    bool RMUD.IOpenableRules.CanClose(RMUD.Actor Actor)
+    RMUD.CheckRule RMUD.IOpenableRules.CanClose(RMUD.Actor Actor)
     {
-        return false;
+        return RMUD.CheckRule.Disallow("It's already closed.");
     }
 
-    bool RMUD.IOpenableRules.CanOpen(RMUD.Actor Actor)
+    RMUD.CheckRule RMUD.IOpenableRules.CanOpen(RMUD.Actor Actor)
     {
-        return false;
+        return RMUD.CheckRule.Disallow("It's bolted to the wall.");
     }
 
     void RMUD.IOpenableRules.HandleClose(RMUD.Actor Actor)

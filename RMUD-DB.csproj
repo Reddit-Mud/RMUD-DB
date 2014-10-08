@@ -48,21 +48,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="static\blecki-demo\area.cs" />
-    <Compile Include="static\blecki-demo\bluff.cs" />
-    <Compile Include="static\blecki-demo\cabin.cs" />
-    <Compile Include="static\blecki-demo\deck.cs" />
-    <Compile Include="static\blecki-demo\pit.cs" />
-    <Compile Include="static\blecki-demo\darkness.cs" />
-    <Compile Include="static\blecki-demo\shaft.cs" />
-    <Compile Include="static\blecki-demo\lighthouse_balcony.cs" />
-    <Compile Include="static\blecki-demo\lighthouse_door.cs" />
-    <Compile Include="static\blecki-demo\lighthouse_key.cs" />
-    <Compile Include="static\blecki-demo\lighthouse_lobby.cs" />
-    <Compile Include="static\blecki-demo\lighthouse_stairway.cs" />
-    <Compile Include="static\blecki-demo\shack.cs" />
-    <Compile Include="static\blecki-demo\shoreline.cs" />
+    <Compile Include="static\port-ivy\bed-and-breakfast\sitting_room.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
