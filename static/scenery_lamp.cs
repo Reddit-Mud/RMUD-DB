@@ -2,11 +2,11 @@
 { 
     public scenery_lamp(string Short, string Long) : base(Short, Long) {}
 
-    public bool EmitsLight
+    public RMUD.LightingLevel EmitsLight
     {
         get
         {
-            return true;
+            return RMUD.LightingLevel.Dim;
         }
     }
 }
