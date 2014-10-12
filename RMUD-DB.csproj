@@ -117,7 +117,6 @@
     <Compile Include="static\port-ivy\bed-and-breakfast\wok_door.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="static\port-ivy\Bed_and_Breakfast.cs" />
     <Compile Include="static\port-ivy\Bookstore.cs" />
     <Compile Include="static\port-ivy\Chamber_of_Commerce.cs" />
     <Compile Include="static\port-ivy\Comber_s_Shack.cs" />
@@ -215,7 +214,5 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-  <ItemGroup>
-    <Folder Include="static\port-ivy\" />
-  </ItemGroup>
+  <ItemGroup />
 </Project>

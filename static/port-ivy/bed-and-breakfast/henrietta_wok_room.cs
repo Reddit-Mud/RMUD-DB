@@ -11,7 +11,7 @@ class henrietta_wok_room : RMUD.Room
 
         OpenLink(RMUD.Direction.WEST, "port-ivy/bed-and-breakfast/landing", RMUD.Mud.GetObject("port-ivy/bed-and-breakfast/wok_door"));
 
-        AddScenery(new window("small window", "port-ivy/main_street_1"));
+        AddScenery(new window("small window", "port-ivy/Main_St_North_0"));
         AddScenery(new scenery_lamp("ornate lamp", "This old lamp is covered in little metal leaves. The corners look quite sharp."));
     }
 }

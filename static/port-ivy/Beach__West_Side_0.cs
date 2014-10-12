@@ -4,6 +4,7 @@ public class Beach__West_Side_0 : RMUD.Room {
         Short = "Port Ivy - Beach, West Side";
 
       OpenLink(RMUD.Direction.NORTHEAST, "port-ivy/Beach__North_Side_0");
+      OpenLink(RMUD.Direction.EAST, "port-ivy/bed-and-breakfast/patio");
       OpenLink(RMUD.Direction.SOUTHEAST, "port-ivy/Thornton_Heights_0");
     }
 }

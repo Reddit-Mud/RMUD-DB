@@ -11,7 +11,7 @@ class bay_room : RMUD.Room
         OpenLink(RMUD.Direction.EAST, "port-ivy/bed-and-breakfast/hallway", RMUD.Mud.GetObject("port-ivy/bed-and-breakfast/bay_room_door"));
         OpenLink(RMUD.Direction.SOUTH, "port-ivy/bed-and-breakfast/deck", RMUD.Mud.GetObject("port-ivy/bed-and-breakfast/deck_door"));
 
-        AddScenery(new window("bay window", "port-ivy/beach_1"));
+        AddScenery(new window("bay window", "port-ivy/Beach__West_Side_0"));
     }
 }
 
