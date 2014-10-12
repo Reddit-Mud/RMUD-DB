@@ -48,21 +48,166 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="static\blecki-demo\area.cs" />
-    <Compile Include="static\blecki-demo\bluff.cs" />
-    <Compile Include="static\blecki-demo\cabin.cs" />
-    <Compile Include="static\blecki-demo\deck.cs" />
-    <Compile Include="static\blecki-demo\pit.cs" />
-    <Compile Include="static\blecki-demo\darkness.cs" />
-    <Compile Include="static\blecki-demo\shaft.cs" />
-    <Compile Include="static\blecki-demo\lighthouse_balcony.cs" />
-    <Compile Include="static\blecki-demo\lighthouse_door.cs" />
-    <Compile Include="static\blecki-demo\lighthouse_key.cs" />
-    <Compile Include="static\blecki-demo\lighthouse_lobby.cs" />
-    <Compile Include="static\blecki-demo\lighthouse_stairway.cs" />
-    <Compile Include="static\blecki-demo\shack.cs" />
-    <Compile Include="static\blecki-demo\shoreline.cs" />
+    <Compile Include="static\port-ivy\Allyway.cs" />
+    <Compile Include="static\port-ivy\Antique_Mall.cs" />
+    <Compile Include="static\port-ivy\Bank.cs" />
+    <Compile Include="static\port-ivy\Beach__East_Side_0.cs" />
+    <Compile Include="static\port-ivy\Beach__East_Side_1.cs" />
+    <Compile Include="static\port-ivy\Beach__East_Side_2.cs" />
+    <Compile Include="static\port-ivy\Beach__East_Side_3.cs" />
+    <Compile Include="static\port-ivy\Beach__East_Side_4.cs" />
+    <Compile Include="static\port-ivy\Beach__North_Side_0.cs" />
+    <Compile Include="static\port-ivy\Beach__North_Side_1.cs" />
+    <Compile Include="static\port-ivy\Beach__North_Side_2.cs" />
+    <Compile Include="static\port-ivy\Beach__North_Side_3.cs" />
+    <Compile Include="static\port-ivy\Beach__North_Side_4.cs" />
+    <Compile Include="static\port-ivy\Beach__North_Side_5.cs" />
+    <Compile Include="static\port-ivy\Beach__North_Side_6.cs" />
+    <Compile Include="static\port-ivy\Beach__South_Side.cs" />
+    <Compile Include="static\port-ivy\Beach__West_Side_0.cs" />
+    <Compile Include="static\port-ivy\Beach__West_Side_1.cs" />
+    <Compile Include="static\port-ivy\bed-and-breakfast\bay_room.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="static\port-ivy\bed-and-breakfast\bay_room_door.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="static\port-ivy\bed-and-breakfast\captain_jacks_room.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="static\port-ivy\bed-and-breakfast\closet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="static\port-ivy\bed-and-breakfast\closet_door.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="static\port-ivy\bed-and-breakfast\deck.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="static\port-ivy\bed-and-breakfast\deck_door.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="static\port-ivy\bed-and-breakfast\front_door.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="static\port-ivy\bed-and-breakfast\hallway.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="static\port-ivy\bed-and-breakfast\henrietta_wok_room.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="static\port-ivy\bed-and-breakfast\jacks_door.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="static\port-ivy\bed-and-breakfast\kitchen.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="static\port-ivy\bed-and-breakfast\landing.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="static\port-ivy\bed-and-breakfast\patio.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="static\port-ivy\bed-and-breakfast\patio_door.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="static\port-ivy\bed-and-breakfast\porch.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="static\port-ivy\bed-and-breakfast\roof.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="static\port-ivy\bed-and-breakfast\sitting_room.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="static\port-ivy\bed-and-breakfast\wok_door.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="static\port-ivy\Bed_and_Breakfast.cs" />
+    <Compile Include="static\port-ivy\Bookstore.cs" />
+    <Compile Include="static\port-ivy\Cathederal.cs" />
+    <Compile Include="static\port-ivy\Cementery.cs" />
+    <Compile Include="static\port-ivy\Chamber_of_Commerce.cs" />
+    <Compile Include="static\port-ivy\Comber_s_Shack.cs" />
+    <Compile Include="static\port-ivy\Crescent_and_Dock.cs" />
+    <Compile Include="static\port-ivy\Crescent_St_0.cs" />
+    <Compile Include="static\port-ivy\Crescent_St_1.cs" />
+    <Compile Include="static\port-ivy\Crescent_St_2.cs" />
+    <Compile Include="static\port-ivy\Crescent_St_Northwest_0.cs" />
+    <Compile Include="static\port-ivy\Crescent_St_Northwest_1.cs" />
+    <Compile Include="static\port-ivy\Crescent_St_Northwest_2.cs" />
+    <Compile Include="static\port-ivy\Crescent_St_Northwest_3.cs" />
+    <Compile Include="static\port-ivy\Crescent_St_Northwest_4.cs" />
+    <Compile Include="static\port-ivy\Crescent_St_Southwest_0.cs" />
+    <Compile Include="static\port-ivy\Crescent_St_Southwest_1.cs" />
+    <Compile Include="static\port-ivy\Crescent_St_Southwest_2.cs" />
+    <Compile Include="static\port-ivy\Docks_0.cs" />
+    <Compile Include="static\port-ivy\Docks_1.cs" />
+    <Compile Include="static\port-ivy\Docks_2.cs" />
+    <Compile Include="static\port-ivy\Dock_St_0.cs" />
+    <Compile Include="static\port-ivy\Dock_St_1.cs" />
+    <Compile Include="static\port-ivy\Dock_St_2.cs" />
+    <Compile Include="static\port-ivy\Dock_St_3.cs" />
+    <Compile Include="static\port-ivy\Dock_St_4.cs" />
+    <Compile Include="static\port-ivy\Dock_St_5.cs" />
+    <Compile Include="static\port-ivy\Dock_St_6.cs" />
+    <Compile Include="static\port-ivy\Dock_St_7.cs" />
+    <Compile Include="static\port-ivy\Forest_0.cs" />
+    <Compile Include="static\port-ivy\Forest_1.cs" />
+    <Compile Include="static\port-ivy\Forest_2.cs" />
+    <Compile Include="static\port-ivy\Forest_3.cs" />
+    <Compile Include="static\port-ivy\Forest_4.cs" />
+    <Compile Include="static\port-ivy\Forest_5.cs" />
+    <Compile Include="static\port-ivy\Grocery.cs" />
+    <Compile Include="static\port-ivy\Hotel.cs" />
+    <Compile Include="static\port-ivy\House_00.cs" />
+    <Compile Include="static\port-ivy\House_01.cs" />
+    <Compile Include="static\port-ivy\House_02.cs" />
+    <Compile Include="static\port-ivy\House_03.cs" />
+    <Compile Include="static\port-ivy\House_04.cs" />
+    <Compile Include="static\port-ivy\House_05.cs" />
+    <Compile Include="static\port-ivy\House_06.cs" />
+    <Compile Include="static\port-ivy\House_07.cs" />
+    <Compile Include="static\port-ivy\House_08.cs" />
+    <Compile Include="static\port-ivy\House_09.cs" />
+    <Compile Include="static\port-ivy\House_10.cs" />
+    <Compile Include="static\port-ivy\House_11.cs" />
+    <Compile Include="static\port-ivy\Lighthouse.cs" />
+    <Compile Include="static\port-ivy\Main_and_Dock.cs" />
+    <Compile Include="static\port-ivy\Main_St_North_0.cs" />
+    <Compile Include="static\port-ivy\Main_St_North_1.cs" />
+    <Compile Include="static\port-ivy\Main_St_North_2.cs" />
+    <Compile Include="static\port-ivy\Main_St_North_3.cs" />
+    <Compile Include="static\port-ivy\Main_St_North_4.cs" />
+    <Compile Include="static\port-ivy\Main_St_North_5.cs" />
+    <Compile Include="static\port-ivy\Main_St_South_0.cs" />
+    <Compile Include="static\port-ivy\Main_St_South_1.cs" />
+    <Compile Include="static\port-ivy\Monument.cs" />
+    <Compile Include="static\port-ivy\Post_Office.cs" />
+    <Compile Include="static\port-ivy\Restuarant.cs" />
+    <Compile Include="static\port-ivy\School.cs" />
+    <Compile Include="static\port-ivy\Seaside_Ridge_0.cs" />
+    <Compile Include="static\port-ivy\Seaside_Ridge_1.cs" />
+    <Compile Include="static\port-ivy\Seaside_Ridge_2.cs" />
+    <Compile Include="static\port-ivy\Seaside_Ridge_3.cs" />
+    <Compile Include="static\port-ivy\Shipwreck.cs" />
+    <Compile Include="static\port-ivy\Thornton_Heights_0.cs" />
+    <Compile Include="static\port-ivy\Thornton_Heights_1.cs" />
+    <Compile Include="static\port-ivy\Thornton_Heights_2.cs" />
+    <Compile Include="static\port-ivy\Tide_Crush_Bluffs_0.cs" />
+    <Compile Include="static\port-ivy\Tide_Crush_Bluffs_1.cs" />
+    <Compile Include="static\port-ivy\Tide_Crush_Bluffs_2.cs" />
+    <Compile Include="static\port-ivy\Waterfront_Park_0.cs" />
+    <Compile Include="static\port-ivy\Waterfront_Park_1.cs" />
+    <Compile Include="static\port-ivy\Waterfront_Park_2.cs" />
+    <Compile Include="static\port-ivy\Waterfront_Park_3.cs" />
+    <Compile Include="static\port-ivy\Waterfront_Park_4.cs" />
+    <Compile Include="static\scenery_lamp.cs" />
+    <Compile Include="static\settings.cs" />
+    <Compile Include="static\uninteresting_window.cs" />
+    <Compile Include="static\window.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
