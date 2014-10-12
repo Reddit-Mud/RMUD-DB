@@ -3,7 +3,7 @@ public class Docks_2 : RMUD.Room {
     public override void Initialize() {
         Short = "Port Ivy - Docks";
 
-      OpenLink(RMUD.Direction.EAST, "port-ivy/Restuarant");
+      OpenLink(RMUD.Direction.EAST, "port-ivy/Restaurant");
       OpenLink(RMUD.Direction.SOUTH, "port-ivy/Waterfront_Park_0");
       OpenLink(RMUD.Direction.NORTHWEST, "port-ivy/Docks_1");
     }
