@@ -1,9 +1,10 @@
 ﻿public class settings : RMUD.Settings
 {
-	public override void Initialize()
-	{
-		Banner = "~~== REDDIT MUD ==~~\r\n";
-		MessageOfTheDay = "Prototype by Blecki\r\nFor now, just type 'login [name]'. You'll enter the world and be given wizard powers. Neat!\r\n";
-        NewPlayerStartRoom = "dummy";
-	}
+    public override void Initialize()
+    {
+        Banner = "~~== REDDIT MUD ==~~\r\n";
+        MessageOfTheDay = "register username password - Create a new account.\r\nlogin username password - Log into an existing account.";
+        NewPlayerStartRoom = "port-ivy/main_street_1";
+        UpfrontCompilation = true;
+    }
 }
