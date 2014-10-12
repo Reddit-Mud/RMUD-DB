@@ -43,7 +43,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="static\port-ivy\Allyway.cs" />
     <Compile Include="static\port-ivy\Antique_Mall.cs" />
     <Compile Include="static\port-ivy\Bank.cs" />
     <Compile Include="static\port-ivy\Beach__East_Side_0.cs" />
@@ -177,7 +176,6 @@
     <Compile Include="static\port-ivy\Main_St_South_1.cs" />
     <Compile Include="static\port-ivy\Monument.cs" />
     <Compile Include="static\port-ivy\Post_Office.cs" />
-    <Compile Include="static\port-ivy\Restuarant.cs" />
     <Compile Include="static\port-ivy\School.cs" />
     <Compile Include="static\port-ivy\Seaside_Ridge_0.cs" />
     <Compile Include="static\port-ivy\Seaside_Ridge_1.cs" />
@@ -205,6 +203,8 @@
     <Compile Include="static\port-ivy\cathedral\main_nef.cs" />
     <Compile Include="static\port-ivy\cathedral\north_side_nef.cs" />
     <Compile Include="static\port-ivy\cathedral\south_side_nef.cs" />
+    <Compile Include="static\port-ivy\Restaurant.cs" />
+    <Compile Include="static\port-ivy\Alleyway.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
