@@ -6,6 +6,6 @@ public class Cemetery : RMUD.Room {
 		Long = "Gravestones everywhere.";
 
 		OpenLink(RMUD.Direction.EAST, "port-ivy/Forest_0");
-		Openlink(RMUD.Direction.WEST, "port-ivy/cathedral/main-nef");
+		OpenLink(RMUD.Direction.WEST, "port-ivy/cathedral/main-nef");
     }
 }
