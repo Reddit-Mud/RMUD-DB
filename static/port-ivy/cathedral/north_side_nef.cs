@@ -9,7 +9,7 @@ public class north-side-nef: RMUD.Room
 		AddScenery (new SmallCandle());
         Openlink(RMUD.Direction.NORTH, "port-ivy/cathedral/confessional");
         Openlink(RMUD.Direction.SOUTH, "port-ivy/cathedral/entrance");
-        Openlink(RMUD.Direction.EAST, "port-ivy/cathedral/main-nef");
+        Openlink(RMUD.Direction.EAST, "port-ivy/cathedral/main_nef");
     }
 }
 
