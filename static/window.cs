@@ -2,6 +2,8 @@
 {
     string Outside;
 
+    public window() { }
+
     public window(string Short, string Outside, params string[] AdditionalNouns)
     {
         this.Short = Short;

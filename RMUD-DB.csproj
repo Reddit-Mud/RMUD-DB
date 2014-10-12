@@ -48,9 +48,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="static\port-ivy\bed-and-breakfast\captain_jacks_room.cs" />
+    <Compile Include="static\port-ivy\bed-and-breakfast\bay_room_door.cs" />
+    <Compile Include="static\port-ivy\bed-and-breakfast\deck_door.cs" />
+    <Compile Include="static\port-ivy\bed-and-breakfast\jacks_door.cs" />
+    <Compile Include="static\port-ivy\bed-and-breakfast\wok_door.cs" />
+    <Compile Include="static\port-ivy\bed-and-breakfast\patio_door.cs" />
+    <Compile Include="static\port-ivy\bed-and-breakfast\roof.cs" />
     <Compile Include="static\port-ivy\bed-and-breakfast\deck.cs" />
     <Compile Include="static\port-ivy\bed-and-breakfast\bay_room.cs" />
+    <Compile Include="static\port-ivy\bed-and-breakfast\closet_door.cs" />
     <Compile Include="static\port-ivy\bed-and-breakfast\henrietta_wok_room.cs" />
+    <Compile Include="static\port-ivy\bed-and-breakfast\closet.cs" />
     <Compile Include="static\port-ivy\bed-and-breakfast\landing.cs" />
     <Compile Include="static\port-ivy\bed-and-breakfast\patio.cs" />
     <Compile Include="static\port-ivy\bed-and-breakfast\hallway.cs" />
@@ -58,8 +67,11 @@
     <Compile Include="static\port-ivy\bed-and-breakfast\porch.cs" />
     <Compile Include="static\port-ivy\bed-and-breakfast\kitchen.cs" />
     <Compile Include="static\port-ivy\bed-and-breakfast\sitting_room.cs" />
+    <Compile Include="static\port-ivy\beach_1.cs" />
     <Compile Include="static\port-ivy\main_street_1.cs" />
     <Compile Include="static\scenery_lamp.cs" />
+    <Compile Include="static\settings.cs" />
+    <Compile Include="static\uninteresting_window.cs" />
     <Compile Include="static\window.cs" />
   </ItemGroup>
   <ItemGroup />

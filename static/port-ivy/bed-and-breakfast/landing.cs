@@ -1,4 +1,4 @@
-﻿//import scenery_lamp
+﻿//import uninteresting_window
 
 class landing : RMUD.Room
 {
@@ -8,10 +8,10 @@ class landing : RMUD.Room
         Short = "Port Ivy - Bed and Breakfast - Landing";
 
         OpenLink(RMUD.Direction.EAST, "port-ivy/bed-and-breakfast/henrietta_wok_room");
-        OpenLink(RMUD.Direction.NORTH, "port-ivy/bed-and-breakfast/closet");
-        OpenLink(RMUD.Direction.DOWN, "port-ivy/bed-and-breakfast/hallway");
+        OpenLink(RMUD.Direction.NORTH, "port-ivy/bed-and-breakfast/closet", RMUD.Mud.GetObject("port-ivy/bed-and-breakfast/closet_door"));
+        OpenLink(RMUD.Direction.DOWN, "port-ivy/bed-and-breakfast/hallway", RMUD.Mud.GetObject("port-ivy/bed-and-breakfast/wok_door"));
         
-        AddScenery(new scenery_lamp("wall sconse", "A little sconse on the wall is enough to fill the landing with light."));
+        AddScenery(new uninteresting_window("wall sconse", "All you can see through this window is a swatch of sky."));
     }
 }
 
