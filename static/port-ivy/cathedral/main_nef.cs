@@ -8,9 +8,9 @@ public class main_nef: RMUD.Room
 
 		AddScenery(new Candles());
 
-        Openlink(RMUD.Direction.NORTH, "port-ivy/cathedral/north_side_nef");
-        Openlink(RMUD.Direction.SOUTH, "port-ivy/cathedral/south_side_nef");
-        Openlink(RMUD.Direction.EAST, "port-ivy/Cemetery"); // TODO add door
+        OpenLink(RMUD.Direction.NORTH, "port-ivy/cathedral/north_side_nef");
+        OpenLink(RMUD.Direction.SOUTH, "port-ivy/cathedral/south_side_nef");
+        OpenLink(RMUD.Direction.EAST, "port-ivy/Cemetery"); // TODO add door
     }
 }
 

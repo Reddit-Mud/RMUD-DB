@@ -8,7 +8,7 @@ public class confessional: RMUD.Room
 
 		AddScenery (new SmallCandle ());
 
-        Openlink(RMUD.Direction.SOUTH, "port-ivy/cathedral/north_side_nef");
+        OpenLink(RMUD.Direction.SOUTH, "port-ivy/cathedral/north_side_nef");
     }
 }
 
