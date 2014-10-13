@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="static\port-ivy\Antique_Mall.cs" />
+    <Compile Include="static\port-ivy\Map.cs" />
     <Compile Include="static\port-ivy\Bank.cs" />
     <Compile Include="static\port-ivy\Beach__East_Side_0.cs" />
     <Compile Include="static\port-ivy\Beach__East_Side_1.cs" />
