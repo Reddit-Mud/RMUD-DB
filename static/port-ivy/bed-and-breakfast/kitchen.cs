@@ -11,8 +11,8 @@ class kitchen : RMUD.Room
 
         OpenLink(RMUD.Direction.SOUTH, "port-ivy/bed-and-breakfast/patio", RMUD.Mud.GetObject("port-ivy/bed-and-breakfast/patio_door"));
         OpenLink(RMUD.Direction.EAST, "port-ivy/bed-and-breakfast/sitting_room");
-        
-        AddScenery(new window("small window", "port-ivy/beach_1"));
+
+        AddScenery(new window("small window", "port-ivy/Beach__West_Side_0"));
         AddScenery(new scenery_lamp("overhead lights", "These ugly florescent lights flicker overhead. They get the job done, in the sense that you can see, but darkness would likely be preferable."));
     }
 }
