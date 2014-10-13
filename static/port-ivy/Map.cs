@@ -1,7 +1,7 @@
 public class Map : RMUD.MudObject {
     public override void Initialize() {
         Short = "map of Port Ivy";
-
+        Nouns.Add("port", "ivy", "map", "of");
         Long =
             @"Port Ivy - The Island
 
