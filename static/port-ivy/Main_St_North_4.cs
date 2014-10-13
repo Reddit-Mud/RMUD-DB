@@ -6,6 +6,6 @@ public class Main_St_North_4 : RMUD.Room {
       OpenLink(RMUD.Direction.NORTH, "port-ivy/Main_St_North_3");
       OpenLink(RMUD.Direction.EAST, "port-ivy/Bank");
       OpenLink(RMUD.Direction.SOUTH, "port-ivy/Main_St_North_5");
-      OpenLink(RMUD.Direction.WEST, "port-ivy/Allyway");
+      OpenLink(RMUD.Direction.WEST, "port-ivy/Alleyway");
     }
 }
