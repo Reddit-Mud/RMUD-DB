@@ -3,6 +3,8 @@ public class Seaside_Ridge_0 : RMUD.Room {
     public override void Initialize() {
         Short = "Port Ivy - Seaside Ridge";
 
+        Long = "This rocky outcropping marks the northeast boundary of the island. Waves crash far below, in a mess of spray and noise. You are at the north end of the ridge, where the land begins to slope down toward the beach again.";
+
       OpenLink(RMUD.Direction.EAST, "port-ivy/Seaside_Ridge_1");
       OpenLink(RMUD.Direction.NORTHWEST, "port-ivy/Beach__North_Side_6");
     }
