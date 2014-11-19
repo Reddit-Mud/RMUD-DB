@@ -2,8 +2,8 @@
 public class Docks_2 : RMUD.Room {
     public override void Initialize() {
         RoomType = RMUD.RoomType.Exterior;
-        Short = "Port Ivy - Docks";
-        Long = "";
+        Short = "Port Ivy - Docks behind the restaurant";
+        Long = "This area is still called the docks by the locals, but there are no boats anchored here. The ground is stone like the rest of the docks. There is a wooden barrier separating the walking area from the gentle lapping of the sea. Exits lead Northwest to the docks proper, South to the Waterfront Park, and East to the restaurant through the backdoor.";
 
       OpenLink(RMUD.Direction.EAST, "port-ivy/Restaurant");
       OpenLink(RMUD.Direction.SOUTH, "port-ivy/Waterfront_Park_0");
