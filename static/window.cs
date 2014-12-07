@@ -1,15 +1,17 @@
-﻿class window : RMUD.Scenery, RMUD.EmitsLight
+﻿class window : RMUD.Scenery
 {
     string Outside;
 
-    public window() { }
+    public window() {
+        AddValueRule<RMUD.MudObject, RMUD.LightingLevel>("emits-light").Do(EmittedLight);
+    }
 
     public window(string Short, string Outside, params string[] AdditionalNouns)
     {
         this.Short = Short;
         Nouns.Add(Short.Split(' '));
         Nouns.Add("WINDOW");
-        Nouns.AddRange(AdditionalNouns);
+        Nouns.Add(AdditionalNouns);
 
         this.Outside = Outside;
 
@@ -23,14 +25,14 @@
             else
                 return "It is too dark to see anything through the window.";
         });
+
+        AddValueRule<RMUD.MudObject, RMUD.LightingLevel>("emits-light").Do(EmittedLight);
     }
 
-    public RMUD.LightingLevel EmitsLight
+    private RMUD.LightingLevel EmittedLight(RMUD.MudObject Item)
     {
-        get {
-            var outside = RMUD.Mud.GetObject(Outside) as RMUD.Room;
-            if (outside != null) return outside.AmbientLighting - 1;
-            return RMUD.LightingLevel.Dark;
-        }
+        var outside = RMUD.Mud.GetObject(Outside) as RMUD.Room;
+        if (outside != null) return outside.AmbientLighting - 1;
+        return RMUD.LightingLevel.Dark;
     }
 }

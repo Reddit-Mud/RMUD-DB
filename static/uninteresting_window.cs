@@ -1,14 +1,13 @@
-﻿class uninteresting_window : RMUD.Scenery, RMUD.EmitsLight
+﻿class uninteresting_window : RMUD.Scenery
 {
-    public uninteresting_window() { }
-
-    public uninteresting_window(string Short, string Long) : base(Short, Long)
-    {}
-
-    public RMUD.LightingLevel EmitsLight
+    public uninteresting_window()
     {
-        get {
-            return RMUD.Mud.AmbientExteriorLightingLevel - 1;
-        }
+        AddValueRule<RMUD.MudObject, RMUD.LightingLevel>("emits-light").Do(a => RMUD.Mud.AmbientExteriorLightingLevel - 1);
+    }
+
+    public uninteresting_window(string Short, string Long)
+        : base(Short, Long)
+    {
+        AddValueRule<RMUD.MudObject, RMUD.LightingLevel>("emits-light").Do(a => RMUD.Mud.AmbientExteriorLightingLevel - 1);
     }
 }

@@ -1,13 +1,13 @@
-﻿class scenery_lamp : RMUD.Scenery, RMUD.EmitsLight
+﻿class scenery_lamp : RMUD.Scenery
 {
-    public scenery_lamp() { }
-    public scenery_lamp(string Short, string Long) : base(Short, Long) {}
-
-    public RMUD.LightingLevel EmitsLight
+    public scenery_lamp()
     {
-        get
-        {
-            return RMUD.LightingLevel.Dim;
-        }
+        AddValueRule<RMUD.MudObject, RMUD.LightingLevel>("emits-light").Do(a => RMUD.LightingLevel.Bright);
+    }
+
+    public scenery_lamp(string Short, string Long)
+        : base(Short, Long)
+    {
+        AddValueRule<RMUD.MudObject, RMUD.LightingLevel>("emits-light").Do(a => RMUD.LightingLevel.Bright);
     }
 }
