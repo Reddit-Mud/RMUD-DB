@@ -3,7 +3,7 @@
     string Outside;
 
     public window() {
-        AddValueRule<RMUD.MudObject, RMUD.LightingLevel>("emits-light").Do(EmittedLight);
+        Value<RMUD.MudObject, RMUD.LightingLevel>("emits-light").Do(EmittedLight);
     }
 
     public window(string Short, string Outside, params string[] AdditionalNouns)
@@ -26,7 +26,7 @@
                 return "It is too dark to see anything through the window.";
         });
 
-        AddValueRule<RMUD.MudObject, RMUD.LightingLevel>("emits-light").Do(EmittedLight);
+        Value<RMUD.MudObject, RMUD.LightingLevel>("emits-light").Do(EmittedLight);
     }
 
     private RMUD.LightingLevel EmittedLight(RMUD.MudObject Item)
