@@ -15,16 +15,19 @@
 
         this.Outside = Outside;
 
-        Long = new RMUD.DescriptiveText((actor, owner) =>
-        {
-            var outside = RMUD.Mud.GetObject(Outside) as RMUD.Room;
-            if (outside == null) return "Error.";
-            var localeDescription = RMUD.Commands.LookProcessor.GenerateLocaleDescription(actor, outside, false);
-            if (outside.AmbientLighting > RMUD.LightingLevel.Dark)
-                return "Through the window you see\r\n" + localeDescription;
-            else
-                return "It is too dark to see anything through the window.";
-        });
+        Perform<RMUD.MudObject, RMUD.MudObject>("describe")
+            .Do((viewer, thing) =>
+            {
+                var outside = RMUD.Mud.GetObject(Outside) as RMUD.Room;
+                if (outside != null)
+                    RMUD.GlobalRules.ConsiderPerformRule("describe-locale", outside, viewer, outside);
+                else
+                {
+                    RMUD.Mud.SendMessage(viewer, "There seems to be a problem with the window.");
+                }
+                return RMUD.PerformResult.Stop;
+            })
+            .Name("Looking through a window rule.");
 
         Value<RMUD.MudObject, RMUD.LightingLevel>("emits-light").Do(EmittedLight);
     }

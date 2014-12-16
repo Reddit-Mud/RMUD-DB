@@ -5,13 +5,16 @@ public class Monument : RMUD.Room {
     public override void Initialize()
     {
         Short = "Port Ivy - Monument to the Nickering Nag";
-        Long = new RMUD.DescriptiveText((actor, owner) =>
-        {
-            var builder = new System.Text.StringBuilder();
-            builder.Append("A twisting path winds its way in what is more or less a circle around a statue of a rearing horse. The horse is a gaunt and twisted nag.");
-            if (RMUD.Mud.IsNight) builder.Append(" Spotlights shine up at the beast, painting her underside in bright tones.");
-            return builder.ToString();
-        });
+        Long = "A twisting path winds its way in what is more or less a circle around a statue of a rearing horse. The horse is a gaunt and twisted nag.";
+
+        Perform<RMUD.MudObject, RMUD.MudObject>("describe")
+            .When((viewer, thing) => RMUD.Mud.IsNight)
+            .Do((viewer, thing) =>
+            {
+                RMUD.Mud.SendMessage(viewer, "Spotlights shine up at the beast, painting her underside in bright tones.");
+                return RMUD.PerformResult.Continue;
+            })
+            .Name("Mention spotlights at night rule.");
 
         AddScenery(new scenery_lamp("spotlight spotlights light lights spot", "These bright lights are pointed at the horse. They make it kind of unearthly."));
 
