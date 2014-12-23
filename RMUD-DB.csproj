@@ -194,7 +194,6 @@
     <Compile Include="static\port-ivy\Waterfront_Park_3.cs" />
     <Compile Include="static\port-ivy\Waterfront_Park_4.cs" />
     <Compile Include="static\scenery_lamp.cs" />
-    <Compile Include="static\settings.cs" />
     <Compile Include="static\uninteresting_window.cs" />
     <Compile Include="static\window.cs" />
     <Compile Include="static\port-ivy\cathedral\confessional.cs" />
