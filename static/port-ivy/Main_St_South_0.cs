@@ -8,6 +8,6 @@ public class Main_St_South_0 : RMUD.Room {
       OpenLink(RMUD.Direction.WEST, "port-ivy/Restaurant");
       OpenLink(RMUD.Direction.NORTHWEST, "port-ivy/Main_and_Dock");
 
-      RMUD.MudObject.Move(RMUD.Mud.GetObject("port-ivy/Map"), this);
+      RMUD.MudObject.Move(GetObject("port-ivy/Map"), this);
     }
 }

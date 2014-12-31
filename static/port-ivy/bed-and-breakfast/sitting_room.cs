@@ -12,7 +12,7 @@ class sitting_room : RMUD.Room
         AddScenery("No two flowers are the same. Except those two. And those two. Actually it's a pattern that repeats every five flowers or so.", "flowers", "little", "pink");
         AddScenery("The carpet looks quite nice in the spots that have spent the last twenty years under furniture.", "bare", "carpet");
 
-        OpenLink(RMUD.Direction.EAST, "port-ivy/bed-and-breakfast/porch", RMUD.Mud.GetObject("port-ivy/bed-and-breakfast/front_door"));
+        OpenLink(RMUD.Direction.EAST, "port-ivy/bed-and-breakfast/porch", GetObject("port-ivy/bed-and-breakfast/front_door"));
         OpenLink(RMUD.Direction.WEST, "port-ivy/bed-and-breakfast/kitchen");
         OpenLink(RMUD.Direction.UP, "port-ivy/bed-and-breakfast/hallway");
 

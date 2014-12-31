@@ -8,10 +8,10 @@ public class Monument : RMUD.Room {
         Long = "A twisting path winds its way in what is more or less a circle around a statue of a rearing horse. The horse is a gaunt and twisted nag.";
 
         Perform<RMUD.MudObject, RMUD.MudObject>("describe")
-            .When((viewer, thing) => RMUD.Mud.IsNight)
+            .When((viewer, thing) => IsNight)
             .Do((viewer, thing) =>
             {
-                RMUD.Mud.SendMessage(viewer, "Spotlights shine up at the beast, painting her underside in bright tones.");
+                SendMessage(viewer, "Spotlights shine up at the beast, painting her underside in bright tones.");
                 return RMUD.PerformResult.Continue;
             })
             .Name("Mention spotlights at night rule.");

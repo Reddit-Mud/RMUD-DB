@@ -9,7 +9,7 @@ class kitchen : RMUD.Room
         Short = "Port Ivy - Bed and Breakfast - Kitchen";
         Long = "The kitchen is dirty, and dingy, and other adjectives that mean the same thing. It is bathed in the slightly blue tint of old florescent lighting, with just enough flicker to make your eyes hurt. A small window looks out over the beach.";
 
-        OpenLink(RMUD.Direction.SOUTH, "port-ivy/bed-and-breakfast/patio", RMUD.Mud.GetObject("port-ivy/bed-and-breakfast/patio_door"));
+        OpenLink(RMUD.Direction.SOUTH, "port-ivy/bed-and-breakfast/patio", GetObject("port-ivy/bed-and-breakfast/patio_door"));
         OpenLink(RMUD.Direction.EAST, "port-ivy/bed-and-breakfast/sitting_room");
 
         AddScenery(new window("small window", "port-ivy/Beach__West_Side_0"));

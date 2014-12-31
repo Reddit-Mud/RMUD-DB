@@ -9,7 +9,7 @@
         AddScenery("The stripes are pink on blue.", "pinstripe", "wallpaper");
         AddScenery("It's actually mostly a sort of dirty purple.", "carpet");
 
-        OpenLink(RMUD.Direction.SOUTH, "port-ivy/bed-and-breakfast/hallway", RMUD.Mud.GetObject("port-ivy/bed-and-breakfast/jacks_door"));
+        OpenLink(RMUD.Direction.SOUTH, "port-ivy/bed-and-breakfast/hallway", GetObject("port-ivy/bed-and-breakfast/jacks_door"));
         
     }
 }
