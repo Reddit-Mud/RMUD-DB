@@ -20,7 +20,7 @@
             {
                 var outside = GetObject(Outside) as RMUD.Room;
                 if (outside != null)
-                    RMUD.GlobalRules.ConsiderPerformRule("describe-locale", outside, viewer, outside);
+                    RMUD.Core.GlobalRules.ConsiderPerformRule("describe-locale", viewer, outside);
                 else
                 {
                     SendMessage(viewer, "There seems to be a problem with the window.");
